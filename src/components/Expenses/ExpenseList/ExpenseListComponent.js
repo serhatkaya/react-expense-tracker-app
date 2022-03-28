@@ -1,7 +1,7 @@
-import "./ExpensesComponent.css";
+import "./ExpenseListComponent.css";
 import ExpenseItemComponent from "../ExpenseItem/ExpenseItemComponent";
-import CardComponent from "../Card/CardComponent";
-function ExpensesComponent(props) {
+import CardComponent from "../../core/Card/CardComponent";
+function ExpenseListComponent(props) {
   return (
     <CardComponent className="expenses">
       <ExpenseItemComponent
@@ -13,4 +13,4 @@ function ExpensesComponent(props) {
   );
 }
 
-export default ExpensesComponent;
+export default ExpenseListComponent;
