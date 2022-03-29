@@ -33,15 +33,11 @@ function App() {
 		});
 	};
 
-	const filterExpenses = (filter) => {
-		console.log('filter', filter);
-	};
-
 	return (
 		<div>
 			<h2>Get started</h2>
 			<NewExpense onAddExpense={addExpenseHandler} />
-			<Expenses items={expenses} filterExpenses={filterExpenses} />
+			<Expenses items={expenses} />
 		</div>
 	);
 }

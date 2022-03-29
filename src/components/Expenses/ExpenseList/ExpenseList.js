@@ -4,7 +4,7 @@ import ExpenseItem from '../ExpenseItem/ExpenseItem';
 const ExpenseList = (props) => {
 	const expensesContent =
 		props.items.length < 1 ? (
-			<p>No expenses found.</p>
+			<h2 className="expenses-list__fallback">Found no expenses</h2>
 		) : (
 			props.items.map((expense) => {
 				return (
