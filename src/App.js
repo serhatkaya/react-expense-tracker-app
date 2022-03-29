@@ -1,5 +1,5 @@
 import './App.css';
-import ExpenseList from './components/Expenses/ExpenseList/ExpenseList';
+import Expenses from './components/Expenses/Expenses/Expenses';
 import NewExpense from './components/Expenses/NewExpense/NewExpense';
 import React, { useState } from 'react';
 
@@ -41,7 +41,7 @@ function App() {
 		<div>
 			<h2>Get started</h2>
 			<NewExpense onAddExpense={addExpenseHandler} />
-			<ExpenseList items={expenses} filterExpenses={filterExpenses} />
+			<Expenses items={expenses} filterExpenses={filterExpenses} />
 		</div>
 	);
 }
