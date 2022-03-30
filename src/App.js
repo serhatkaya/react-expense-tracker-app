@@ -1,4 +1,5 @@
 import './App.css';
+import './assets/font.css';
 import Expenses from './components/Expenses/Expenses/Expenses';
 import NewExpense from './components/Expenses/NewExpense/NewExpense';
 import React, { useState } from 'react';
@@ -35,7 +36,6 @@ function App() {
 
 	return (
 		<div>
-			<h2>Get started</h2>
 			<NewExpense onAddExpense={addExpenseHandler} />
 			<Expenses items={expenses} />
 		</div>

@@ -1,16 +1,10 @@
-*,
-*:before,
-*:after {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-}
-body {
-	background-color: #5095e4;
-}
+.chart {
+	padding: 1rem;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	height: 10rem;
 
-input,
-select {
 	background: rgba(255, 255, 255, 0.25);
 	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 	backdrop-filter: blur(3.5px);
